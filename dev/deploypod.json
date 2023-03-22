@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: ngi
+      - name: nginx
         image: nitikjumbo/my_repo
         ports:
         - containerPort: 80
